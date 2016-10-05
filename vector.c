@@ -58,8 +58,8 @@ void vec_clear(vec * p_vec) {
 }
 
 void vec_free(vec * p_vec) {
-    p_vec->npos = 0;
+	p_vec->npos = 0;
 	p_vec->elem_size = 0;
 	p_vec->len = 0;
-    free(p_vec->data);
+	free(p_vec->data);
 }
