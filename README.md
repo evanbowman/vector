@@ -1,5 +1,5 @@
 ### Overview
-The code in this repository implements an interface similar to a C++ STL vector in C.
+The code in this repository implements an interface similar to a C++ STL vector in C. In terms of memory footprint, it requires one more word than std::vector, because the size of the stored elements cannot be determined at compile time.
 
 ### Usage
 ``` c
